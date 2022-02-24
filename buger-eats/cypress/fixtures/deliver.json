@@ -31,5 +31,22 @@
         },
         "deluvery_method": "Moto",
         "cnh": "cnh-digital.jpg"
+    },
+
+    "email_inv": {
+        "name": "José Silva",
+        "cpf": "00011122589",
+        "email": "jose.com.br",
+        "whatsapp": "31999994131",
+        "address": {
+            "postalcode": "32371000",
+            "street": "Rua Cardeal Arcoverde",
+            "number": "142",
+            "details": "Loja 3",
+            "district": "Água Branca",
+            "city_state": "Contagem/MG"
+        },
+        "deluvery_method": "Moto",
+        "cnh": "cnh-digital.jpg"
     }
 }
