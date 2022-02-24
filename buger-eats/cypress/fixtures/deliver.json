@@ -1,0 +1,35 @@
+{
+    "signup": {
+        "name": "Diego Martin",
+        "cpf": "00011122245",
+        "email": "diego@gmail.com",
+        "whatsapp": "31999999999",
+        "address": {
+            "postalcode": "32371000",
+            "street": "Rua Cardeal Arcoverde",
+            "number": "142",
+            "details": "Loja 3",
+            "district": "Água Branca",
+            "city_state": "Contagem/MG"
+        },
+        "deluvery_method": "Moto",
+        "cnh": "cnh-digital.jpg"
+    },
+
+    "cpf_inv": {
+        "name": "João Dias",
+        "cpf": "x00111222AA",
+        "email": "joao@gmail.com",
+        "whatsapp": "31999999978",
+        "address": {
+            "postalcode": "32371000",
+            "street": "Rua Cardeal Arcoverde",
+            "number": "142",
+            "details": "Loja 3",
+            "district": "Água Branca",
+            "city_state": "Contagem/MG"
+        },
+        "deluvery_method": "Moto",
+        "cnh": "cnh-digital.jpg"
+    }
+}
