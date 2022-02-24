@@ -1,24 +1,24 @@
 
-import SignupPage from '../pages/SignupPage'
+import signup from '../pages/SignupPage'
 
 
 describe('Cadastro', () => {
 
-    before(function(){
-        cy.log('Tudo aqui é executado uma única vez ANTES de TODOS os testes')
-    })
+    // before(function(){
+    //     cy.log('Tudo aqui é executado uma única vez ANTES de TODOS os testes')
+    // })
 
-    beforeEach(function(){
-        cy.log('Tudo aqui é executado sempre ANTES de CADA caso de teste')
-    })
+    // beforeEach(function(){
+    //     cy.log('Tudo aqui é executado sempre ANTES de CADA caso de teste')
+    // })
 
-    after(function(){
-        cy.log('Tudo aqui é executado uma única vez DEPOIS de TODOS os testes')
-    })
+    // after(function(){
+    //     cy.log('Tudo aqui é executado uma única vez DEPOIS de TODOS os testes')
+    // })
 
-    afterEach(function(){
-        cy.log('Tudo aqui é executado sempre DEPOIS de CADA caso de teste')
-    })
+    // afterEach(function(){
+    //     cy.log('Tudo aqui é executado sempre DEPOIS de CADA caso de teste')
+    // })
 
 
     it('Usuário deve se tornar um entregador', () => {
@@ -42,7 +42,7 @@ describe('Cadastro', () => {
 
         }
 
-        var signup = new SignupPage()
+        
 
         signup.go()
         signup.fillForm(deliver)
@@ -74,7 +74,7 @@ describe('Cadastro', () => {
 
         }
 
-        var signup = new SignupPage()
+        
 
         signup.go()
         signup.fillForm(deliver)
